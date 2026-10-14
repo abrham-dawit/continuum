@@ -1,0 +1,13 @@
+{
+  "lock": false,
+  "imports": {
+    "@supabase/supabase-js": "jsr:@supabase/supabase-js@2"
+  },
+  "fmt": {
+    "lineWidth": 100
+  },
+  "tasks": {
+    "test": "deno test --allow-net _shared/",
+    "check": "deno check **/index.ts"
+  }
+}

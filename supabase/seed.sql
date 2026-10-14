@@ -1,0 +1,9 @@
+-- Continuum — seed data intentionally removed.
+--
+-- This project runs on REAL data only: observations are upserted by the
+-- desktop apps via the `agent-sync` Edge Function. No mock/demo rows are
+-- seeded, so `supabase db reset` starts from an empty graph and the team
+-- knowledge graph fills only from actual desktop captures.
+--
+-- (Previously this file seeded a fabricated "Demo Workspace" cluster,
+-- @continuum.dev personas, and 15 sample nodes/edges. Removed deliberately.)
